@@ -26,46 +26,41 @@ namespace BetaTest
 
         static void apple() {
             Fruits fruit1 = new Fruits();
-
             fruit1.name = "Apple";
             fruit1.color = "Red";
             fruit1.taste = "Sweet";
             fruit1.quantity = 1;
-
-            Console.WriteLine(">> " + fruit1.name);
+            Console.WriteLine(">> \t" + fruit1.name);
         }
 
         static void banana() {
-            Fruits fruit2 = new Fruits();
-            fruit2.name = "Banana";
-            fruit2.color = "Yellow";
-            fruit2.taste = "Sweet";
-            fruit2.quantity = 5;
-
-            Console.WriteLine(">> " + fruit2.name);
+            Fruits fruit1 = new Fruits();
+            fruit1.name = "Banana";
+            fruit1.color = "Yellow";
+            fruit1.taste = "Sweet";
+            fruit1.quantity = 5;
+            Console.WriteLine(">> \t" + fruit1.name);
         }
 
         static void mango() {
-            Fruits fruit3 = new Fruits();
-            fruit3.name = "Mango";
-            fruit3.color = "Green Yellowish";
-            fruit3.taste = "Sweet Sour";
-            fruit3.quantity = 7;
-
-            Console.WriteLine(">> " + fruit3.name);
+            Fruits fruit1 = new Fruits();
+            fruit1.name = "Mango";
+            fruit1.color = "Green Yellowish";
+            fruit1.taste = "Sweet Sour";
+            fruit1.quantity = 7;
+            Console.WriteLine(">> \t" + fruit1.name);
         }
-
+        /*
         static void Main(string[] args) {
-
             mahasiswa test = new mahasiswa();
 
             test.intro();
             apple();
             banana();
             mango();
-
-            char C = Console.ReadKey(true).KeyChar;     //getch() C++ / C */
+            char C = Console.ReadKey(true).KeyChar;     //getch() C++ / C
         }
+        */
     }
 
     class vehicle {
@@ -73,31 +68,32 @@ namespace BetaTest
         public string brand;
 
         static void volvo() {
-            vehicle car1 = new vehicle();
-            car1.brand = "Volvo";
-            Console.WriteLine(">> " + car1.brand);
+            vehicle car = new vehicle();
+            car.brand = "Volvo";
+            Console.WriteLine(">> \t" + car.brand);
         }
 
         static void Audi() {
-            vehicle car2 = new vehicle();
-            car2.brand = "Audi";
-            Console.WriteLine(">> " + car2.brand);
+            vehicle car = new vehicle();
+            car.brand = "Audi";
+            Console.WriteLine(">> \t" + car.brand);
         }
 
         static void Toyota() {
-            vehicle car3 = new vehicle();
-            car3.brand = "Toyota";
-            Console.WriteLine(">> " + car3.brand);
+            vehicle car = new vehicle();
+            car.brand = "Toyota";
+            Console.WriteLine(">> \t" + car.brand);
         }
+        
+        static void Main(string[] args) {
+            mahasiswa test = new mahasiswa();
 
-        static void Main2(string[] args) {
-
+            test.intro();
             volvo();
             Audi();
             Toyota();
             char C = Console.ReadKey(true).KeyChar;
         }
-
     }
 }
 
