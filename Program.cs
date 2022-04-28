@@ -13,8 +13,8 @@ namespace BetaTest
         {
             Console.Title = "Praktikum Pemrograman II";
             Console.WriteLine("\n");
-            Console.WriteLine("(>>)\t" + "Nama \t\t\t:" + " Alexander Achmad Khan");
-            Console.WriteLine("(>>)\t" + "NIM/NPM \t\t:" + " 120103048");
+            Console.WriteLine("(>>)\t" + "Nama \t\t\t:" + " ...");
+            Console.WriteLine("(>>)\t" + "NIM/NPM \t\t:" + " ...");
             Console.WriteLine("(>>)\t" + "Program Studi \t\t:" + " Ilmu Komputer");
             Console.WriteLine("(>>)\t" + "Mata Kuliah \t\t:" + " Praktikum Pemrograman II");
             Console.WriteLine("================================================================\n");
